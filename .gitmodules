@@ -1,6 +1,6 @@
 [submodule "quantaco_ui"]
 	path = quantaco_ui
-	url = git@github.com:deejay6/quantaco_ui.git
+	url = https://github.com/deejay6/quantaco_ui.git
 [submodule "quantaco_backend"]
 	path = quantaco_backend
-	url = git@github.com:deejay6/quantaco_backend.git
+	url = https://github.com/deejay6/quantaco_backend.git
