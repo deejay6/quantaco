@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  quantaco_backend:
+    container_name: 'quantaco_backend'
+    hostname: host.docker.internal
+    build:
+      dockerfile: Dockerfile
+      context: ./quantaco_backend
+    ports:
+      - "8000:8000"
+
+  quantaco_ui:
+    container_name: 'quantaco_ui'
+    hostname: host.docker.internal
+    build:
+      dockerfile: Dockerfile
+      context: ./quantaco_ui
+    depends_on:
+      - quantaco_backend
+    ports:
+      - "3000:3000"
