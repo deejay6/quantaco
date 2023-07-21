@@ -1,7 +1,8 @@
 # Customer Management Portal
 
 ## Architecture
-   ![Architecture.png](..%2FArchitecture.png)
+![Architecture](https://github.com/deejay6/quantaco/assets/29411189/0fa2f3df-9479-46b9-aa4b-fe782af8c2b1)
+
 
 This repo contains 2 submodules and this is done to start whole application 
 in 1 go.
